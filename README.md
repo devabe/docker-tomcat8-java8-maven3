@@ -1,4 +1,4 @@
-# Tomcat 8 on Java 8
+# Tomcat 8 on Java 8 and Maven 3
 
 This image includes Tomcat 8 installation and deployment. It is based on [inovatrend/java8](https://registry.hub.docker.com/u/inovatrend/java8/) , check there what else is installed on it.
 
@@ -31,5 +31,5 @@ You can now configure to this Tomcat server using:
 A prebuilt container is available on Docker Hub, you can get it with following command
 
 ```sh
-docker pull abecha/tomcat8-jdk8:tagname
+docker pull abecha/tomcat8-jdk8-mvn3:tagname
 ```
